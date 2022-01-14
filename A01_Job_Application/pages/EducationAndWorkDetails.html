@@ -16,6 +16,20 @@
     <link rel="shortcut icon" href="../images/searchLens.png" />
 
     <style>
+      body {
+        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+      }
+
+      .container {
+        font-family: sans-serif;
+        background: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 500px;
+      }
+
       .col {
         margin: 10px;
       }
@@ -44,16 +58,23 @@
     <title>Online Job Application Form</title>
   </head>
   <body>
-    <div class="container" style="text-align: center">
-      <h1 style="margin-top: 50px; margin-bottom: 50px">
-        Educational & Professional Details
+    <div class="container border border-2" style="text-align: center">
+      <h1
+        style="
+          margin-top: 20px;
+          margin-bottom: 40px;
+          margin-left: 20px;
+          float: left;
+        "
+      >
+        <strong>Educational & Professional Details</strong>
       </h1>
 
-      <form class="border border-2" style="padding: 10px; border-radius: 10px">
+      <form style="padding: 10px; border-radius: 10px">
         <!--Education Heading-->
         <div class="input-group">
           <div class="col">
-            <h3 style="float: left">Education</h3>
+            <h3 style="float: left"><b>Education</b></h3>
           </div>
         </div>
 
@@ -139,7 +160,7 @@
         <!--Work Experience Heading-->
         <div class="input-group" style="margin-top: 50px">
           <div class="col">
-            <h3 style="float: left">Work Experience</h3>
+            <h3 style="float: left"><b>Work Experience</b></h3>
           </div>
         </div>
 
