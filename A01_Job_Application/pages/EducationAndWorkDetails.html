@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="shortcut icon" href="../images/searchLens.png" />
+
+    <style>
+      .col {
+        margin: 10px;
+      }
+
+      .col-1 {
+        margin: 10px;
+      }
+
+      .edu_details {
+        margin-top: 10px;
+      }
+
+      .search_button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border-width: 0px;
+      }
+
+      .search_button:hover {
+        border-color: rgb(105, 175, 185);
+        border-width: 1px;
+      }
+    </style>
+
+    <title>Online Job Application Form</title>
+  </head>
+  <body>
+    <div class="container" style="text-align: center">
+      <h1 style="margin-top: 50px; margin-bottom: 50px">
+        Educational & Professional Details
+      </h1>
+
+      <form class="border border-2" style="padding: 10px; border-radius: 10px">
+        <!--Education Heading-->
+        <div class="input-group">
+          <div class="col">
+            <h3 style="float: left">Education</h3>
+          </div>
+        </div>
+
+        <!--Education Details Input-->
+        <div class="input-group">
+          <div class="col">
+            <label style="float: left"><b>Qualification</b></label>
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Class X or Equivalent"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Class XII or Equivalent"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Bachelor's or Equivalent"
+            />
+          </div>
+          <div class="col">
+            <label style="float: left"><b>Institute/University</b></label>
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="School Name"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="School Name"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="College Name"
+            />
+          </div>
+          <div class="col">
+            <label style="float: left"><b>Year of Passing</b></label>
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+          </div>
+          <div class="col">
+            <label style="float: left"><b>Marks</b></label>
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="CGPA/Percentage"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="CGPA/Percentage"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="CGPA/Percentage"
+            />
+          </div>
+        </div>
+
+        <!--Work Experience Heading-->
+        <div class="input-group" style="margin-top: 50px">
+          <div class="col">
+            <h3 style="float: left">Work Experience</h3>
+          </div>
+        </div>
+
+        <!--Work Experience Input-->
+        <div class="input-group">
+          <div class="col">
+            <label style="float: left"><b>Company</b></label>
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Company Name"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Company Name"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Company Name"
+            />
+          </div>
+          <div class="col">
+            <label style="float: left"><b>Work/Role</b></label>
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Role (eg: Junior Developer)"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Role (eg: Junior Developer)"
+            />
+            <input
+              type="text"
+              class="form-control edu_details"
+              placeholder="Role (eg: Junior Developer)"
+            />
+          </div>
+          <div class="col">
+            <label style="float: left"><b>From Date</b></label>
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+          </div>
+          <div class="col">
+            <label style="float: left"><b>To Date</b></label>
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+            <input
+              type="text"
+              placeholder="DD-MM-YYYY"
+              onfocus="(this.type='date')"
+              class="form-control edu_details"
+            />
+          </div>
+        </div>
+
+        <!--Proceed Button-->
+        <div class="input-group">
+          <div class="col">
+            <button type="button" class="search_button" style="float: left">
+              <a href="PersonalDetails.html">
+                <img
+                  src="../images/redBackButton.png"
+                  alt="Unable To Display"
+                  width="60px"
+                  height="60px"
+                />
+              </a>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="search_button">
+              <a href="EducationAndWorkDetails.html">
+                <img
+                  src="../images/greyRefreshButton.png"
+                  alt="Unable To Display"
+                  width="60px"
+                  height="60px"
+                />
+              </a>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="search_button" style="float: right">
+              <a href="OtherDetails.html">
+                <img
+                  src="../images/blueButton.png"
+                  alt="Unable To Display"
+                  width="60px"
+                  height="60px"
+                />
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <!--Progress Bar-->
+        <div class="input-group">
+          <div class="col">
+            <div class="progress border border-3" style="height: 25px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                role="progressbar"
+                style="width: 66%"
+              >
+                <b>2/3</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
